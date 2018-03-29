@@ -1,0 +1,636 @@
+[2018-03-28 22:52:20] [main] INFO  c.r.i.AlertManagerApplication - Starting AlertManagerApplication on DESKTOP-4FM103E with PID 1892 (E:\servers\igniteprograms\spring-boot-ignite\target\classes started by borde in E:\servers\igniteprograms\spring-boot-ignite)
+[2018-03-28 22:52:20] [main] DEBUG c.r.i.AlertManagerApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[2018-03-28 22:52:20] [main] INFO  c.r.i.AlertManagerApplication - No active profile set, falling back to default profiles: default
+[2018-03-28 22:52:20] [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c7b252e: startup date [Wed Mar 28 22:52:20 EEST 2018]; root of context hierarchy
+[2018-03-28 22:52:20] [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-03-28 22:52:20] [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[2018-03-28 22:52:20] [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy58
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+[2018-03-28 22:52:22] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$a7247f32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-03-28 22:52:22] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b160e70d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy58
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2018-03-28 22:52:22] [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+[2018-03-28 22:52:22] [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+[2018-03-28 22:52:22] [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2018-03-28 22:52:22] [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2469 ms
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[2018-03-28 22:52:23] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+[2018-03-28 22:52:23] [main] ERROR  - Failed to resolve default logging config file: config/java.util.logging.properties
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.1.0#20170720-sha1:a6ca5c8a
+>>> 2017 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: http://ignite.apache.org
+
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Config URL: n/a
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Daemon mode: off
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - OS: Windows 10 10.0 amd64
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - OS user: borde
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - PID: 1892
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Language runtime: Java Platform API Specification ver. 1.8
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - VM information: Java(TM) SE Runtime Environment 1.8.0_131-b11 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.131-b11
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - VM total memory: 3.5GB
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Remote Management [restart: off, REST: on, JMX (remote: off)]
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - IGNITE_HOME=null
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - VM arguments: [-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.3\lib\idea_rt.jar=56458:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.3\bin, -Dfile.encoding=UTF-8]
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - System cache's MemoryPolicy size is configured to 40 MB. Use MemoryConfiguration.systemCacheMemorySize property to change the setting.
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Configured caches [in 'sysMemPlc' memoryPolicy: ['ignite-sys-cache'], in 'default' memoryPolicy: ['Alerts', 'AlertsConfig']]
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.p.p.IgnitePluginProcessor - Configured plugins:
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.p.p.IgnitePluginProcessor -   ^-- None
+[2018-03-28 22:52:23] [main] INFO  o.a.i.i.p.p.IgnitePluginProcessor - 
+[2018-03-28 22:52:23] [pub-#10%alertsGrid%] WARN  o.a.ignite.internal.GridDiagnostic - This operating system has been tested less rigorously: Windows 10 10.0 amd64. Our team will appreciate the feedback if you experience any problems running ignite in this environment.
+[2018-03-28 22:52:23] [pub-#10%alertsGrid%] WARN  o.a.ignite.internal.GridDiagnostic - Initial heap size is 256MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[2018-03-28 22:52:23] [main] INFO  o.a.i.s.c.tcp.TcpCommunicationSpi - Successfully bound communication NIO server to TCP port [port=47101, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
+[2018-03-28 22:52:33] [main] WARN  o.a.i.s.c.tcp.TcpCommunicationSpi - Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[2018-03-28 22:52:33] [main] WARN  o.a.i.s.c.noop.NoopCheckpointSpi - Checkpoints are disabled (to enable configure any GridCheckpointSpi implementation)
+[2018-03-28 22:52:33] [main] WARN  o.a.i.i.m.c.GridCollisionManager - Collision resolution is disabled (all jobs will be activated upon arrival).
+[2018-03-28 22:52:33] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Security status [authentication=off, tls/ssl=off]
+[2018-03-28 22:52:33] [main] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - Successfully bound to TCP port [port=47501, localHost=0.0.0.0/0.0.0.0, locNodeId=6d2d41a1-b2be-4c01-a179-9167f2254c99]
+[2018-03-28 22:52:33] [main] INFO  o.a.i.i.p.c.b.CacheObjectBinaryProcessorImpl - Resolved directory for serialized binary metadata: C:\Users\borde\AppData\Local\Temp\ignite\work\binary_meta\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_203_192_168_136_1_192_168_32_1_2001_0_9d38_90d7_20ba_9e0_43e6_c0a3_47501
+[2018-03-28 22:52:34] [main] INFO  o.a.i.i.p.c.p.f.FilePageStoreManager - Resolved page store work directory: C:\Users\borde\AppData\Local\Temp\ignite\work\.\data\store\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_203_192_168_136_1_192_168_32_1_2001_0_9d38_90d7_20ba_9e0_43e6_c0a3_47501
+[2018-03-28 22:52:34] [main] INFO  o.a.i.i.p.c.p.w.FileWriteAheadLogManager - Resolved write ahead log work directory: C:\Users\borde\AppData\Local\Temp\ignite\work\.\data\walStore\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_203_192_168_136_1_192_168_32_1_2001_0_9d38_90d7_20ba_9e0_43e6_c0a3_47501
+[2018-03-28 22:52:34] [main] INFO  o.a.i.i.p.c.p.w.FileWriteAheadLogManager - Resolved write ahead log archive directory: C:\Users\borde\AppData\Local\Temp\ignite\work\.\data\walArchive\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_203_192_168_136_1_192_168_32_1_2001_0_9d38_90d7_20ba_9e0_43e6_c0a3_47501
+[2018-03-28 22:52:35] [main] INFO  o.a.i.i.p.odbc.SqlListenerProcessor - SQL connector processor has started on TCP port 10801
+[2018-03-28 22:52:35] [main] INFO  o.a.i.i.p.r.p.t.GridTcpRestProtocol - Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11212]
+[2018-03-28 22:52:35] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Non-loopback local IPs: 192.168.1.203, 192.168.136.1, 192.168.32.1, 2001:0:9d38:90d7:20ba:9e0:43e6:c0a3, fe80:0:0:0:20ba:9e0:43e6:c0a3%net2, fe80:0:0:0:4c32:bdf8:112d:893a%eth1, fe80:0:0:0:4d4c:57b5:8fca:7503%eth0, fe80:0:0:0:8f7:b67a:6638:69da%wlan0, fe80:0:0:0:991f:c5a5:add2:b253%eth5, fe80:0:0:0:dcfe:8611:4231:4fc1%eth2, fe80:0:0:0:f9de:bb8:838c:2590%wlan1
+[2018-03-28 22:52:35] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Enabled local MACs: 00000000000000E0, 005056C00001, 005056C00008, 0862660D76F9, 801934C83282, 801934C83283, 801934C83286
+[2018-03-28 22:52:35] [main] WARN  o.a.i.s.d.t.i.m.TcpDiscoveryMulticastIpFinder - TcpDiscoveryMulticastIpFinder has no pre-configured addresses (it is recommended in production to specify at least one address in TcpDiscoveryMulticastIpFinder.getAddresses() configuration property)
+[2018-03-28 22:52:38] [main] ERROR o.a.i.i.IgniteKernal%alertsGrid - Failed to start manager: GridManagerAdapter [enabled=true, name=o.a.i.i.managers.discovery.GridDiscoveryManager]
+org.apache.ignite.IgniteCheckedException: Failed to start SPI: TcpDiscoverySpi [addrRslvr=null, sockTimeout=5000, ackTimeout=5000, marsh=JdkMarshaller [], reconCnt=10, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false]
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:300)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:837)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1770)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:977)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1896)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1648)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1076)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:596)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:520)
+	at org.apache.ignite.Ignition.start(Ignition.java:322)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration.ignite(AlertManagerConfiguration.java:97)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be.CGLIB$ignite$0(<generated>)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be$$FastClassBySpringCGLIB$$e9e4e7ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be.ignite(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.romeh.ignitemanager.AlertManagerApplication.main(AlertManagerApplication.java:16)
+Caused by: org.apache.ignite.spi.IgniteSpiException: Local node and remote node have different version numbers (node will not join, Ignite does not support rolling updates, so versions must be exactly the same) [locBuildVer=2.4.0, rmtBuildVer=2.1.0, locNodeAddrs=[DESKTOP-4FM103E/0:0:0:0:0:0:0:1, DESKTOP-4FM103E/127.0.0.1, DESKTOP-4FM103E/192.168.1.203, DESKTOP-4FM103E/192.168.136.1, /192.168.32.1, /2001:0:9d38:90d7:20ba:9e0:43e6:c0a3], rmtNodeAddrs=[DESKTOP-4FM103E/0:0:0:0:0:0:0:1, DESKTOP-4FM103E/127.0.0.1, DESKTOP-4FM103E/192.168.1.203, DESKTOP-4FM103E/192.168.136.1, /192.168.32.1, /2001:0:9d38:90d7:20ba:9e0:43e6:c0a3], locNodeId=258540a5-0591-4d42-8ade-a12833b5e46c, rmtNodeId=6d2d41a1-b2be-4c01-a179-9167f2254c99]
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.checkFailedError(TcpDiscoverySpi.java:1759)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.joinTopology(ServerImpl.java:910)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.spiStart(ServerImpl.java:358)
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.spiStart(TcpDiscoverySpi.java:1834)
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:297)
+	... 52 common frames omitted
+[2018-03-28 22:52:38] [main] ERROR o.a.i.i.IgniteKernal%alertsGrid - Got exception while starting (will rollback startup routine).
+org.apache.ignite.IgniteCheckedException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1775)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:977)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1896)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1648)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1076)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:596)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:520)
+	at org.apache.ignite.Ignition.start(Ignition.java:322)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration.ignite(AlertManagerConfiguration.java:97)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be.CGLIB$ignite$0(<generated>)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be$$FastClassBySpringCGLIB$$e9e4e7ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be.ignite(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.romeh.ignitemanager.AlertManagerApplication.main(AlertManagerApplication.java:16)
+Caused by: org.apache.ignite.IgniteCheckedException: Failed to start SPI: TcpDiscoverySpi [addrRslvr=null, sockTimeout=5000, ackTimeout=5000, marsh=JdkMarshaller [], reconCnt=10, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false]
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:300)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:837)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1770)
+	... 50 common frames omitted
+Caused by: org.apache.ignite.spi.IgniteSpiException: Local node and remote node have different version numbers (node will not join, Ignite does not support rolling updates, so versions must be exactly the same) [locBuildVer=2.4.0, rmtBuildVer=2.1.0, locNodeAddrs=[DESKTOP-4FM103E/0:0:0:0:0:0:0:1, DESKTOP-4FM103E/127.0.0.1, DESKTOP-4FM103E/192.168.1.203, DESKTOP-4FM103E/192.168.136.1, /192.168.32.1, /2001:0:9d38:90d7:20ba:9e0:43e6:c0a3], rmtNodeAddrs=[DESKTOP-4FM103E/0:0:0:0:0:0:0:1, DESKTOP-4FM103E/127.0.0.1, DESKTOP-4FM103E/192.168.1.203, DESKTOP-4FM103E/192.168.136.1, /192.168.32.1, /2001:0:9d38:90d7:20ba:9e0:43e6:c0a3], locNodeId=258540a5-0591-4d42-8ade-a12833b5e46c, rmtNodeId=6d2d41a1-b2be-4c01-a179-9167f2254c99]
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.checkFailedError(TcpDiscoverySpi.java:1759)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.joinTopology(ServerImpl.java:910)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.spiStart(ServerImpl.java:358)
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.spiStart(TcpDiscoverySpi.java:1834)
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:297)
+	... 52 common frames omitted
+[2018-03-28 22:52:38] [main] INFO  o.a.i.i.p.r.p.t.GridTcpRestProtocol - Command protocol successfully stopped: TCP binary
+[2018-03-28 22:52:43] [main] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - No verification for local node leave has been received from coordinator (will stop node anyway).
+[2018-03-28 22:52:43] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - 
+
+>>> +---------------------------------------------------------------------------------+
+>>> Ignite ver. 2.1.0#20170720-sha1:a6ca5c8a97e9a4c9d73d40ce76d1504c14ba1940 stopped OK
+>>> +---------------------------------------------------------------------------------+
+>>> Ignite instance name: alertsGrid
+>>> Grid uptime: 00:00:20:469
+
+
+[2018-03-28 22:52:43] [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataGridCompute': Unsatisfied dependency expressed through field 'ignite'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ignite' defined in class path resource [com/romeh/ignitemanager/config/AlertManagerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ignite.Ignite]: Factory method 'ignite' threw exception; nested exception is class org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+[2018-03-28 22:52:43] [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2018-03-28 22:52:44] [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2018-03-28 22:52:44] [main] ERROR o.s.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataGridCompute': Unsatisfied dependency expressed through field 'ignite'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ignite' defined in class path resource [com/romeh/ignitemanager/config/AlertManagerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ignite.Ignite]: Factory method 'ignite' threw exception; nested exception is class org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.romeh.ignitemanager.AlertManagerApplication.main(AlertManagerApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ignite' defined in class path resource [com/romeh/ignitemanager/config/AlertManagerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ignite.Ignite]: Factory method 'ignite' threw exception; nested exception is class org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ignite.Ignite]: Factory method 'ignite' threw exception; nested exception is class org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 31 common frames omitted
+Caused by: org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.apache.ignite.internal.util.IgniteUtils.convertException(IgniteUtils.java:957)
+	at org.apache.ignite.Ignition.start(Ignition.java:325)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration.ignite(AlertManagerConfiguration.java:97)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be.CGLIB$ignite$0(<generated>)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be$$FastClassBySpringCGLIB$$e9e4e7ed.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$ffc0d4be.ignite(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 32 common frames omitted
+Caused by: org.apache.ignite.IgniteCheckedException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1775)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:977)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1896)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1648)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1076)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:596)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:520)
+	at org.apache.ignite.Ignition.start(Ignition.java:322)
+	... 43 common frames omitted
+Caused by: org.apache.ignite.IgniteCheckedException: Failed to start SPI: TcpDiscoverySpi [addrRslvr=null, sockTimeout=5000, ackTimeout=5000, marsh=JdkMarshaller [], reconCnt=10, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false]
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:300)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:837)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1770)
+	... 50 common frames omitted
+Caused by: org.apache.ignite.spi.IgniteSpiException: Local node and remote node have different version numbers (node will not join, Ignite does not support rolling updates, so versions must be exactly the same) [locBuildVer=2.4.0, rmtBuildVer=2.1.0, locNodeAddrs=[DESKTOP-4FM103E/0:0:0:0:0:0:0:1, DESKTOP-4FM103E/127.0.0.1, DESKTOP-4FM103E/192.168.1.203, DESKTOP-4FM103E/192.168.136.1, /192.168.32.1, /2001:0:9d38:90d7:20ba:9e0:43e6:c0a3], rmtNodeAddrs=[DESKTOP-4FM103E/0:0:0:0:0:0:0:1, DESKTOP-4FM103E/127.0.0.1, DESKTOP-4FM103E/192.168.1.203, DESKTOP-4FM103E/192.168.136.1, /192.168.32.1, /2001:0:9d38:90d7:20ba:9e0:43e6:c0a3], locNodeId=258540a5-0591-4d42-8ade-a12833b5e46c, rmtNodeId=6d2d41a1-b2be-4c01-a179-9167f2254c99]
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.checkFailedError(TcpDiscoverySpi.java:1759)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.joinTopology(ServerImpl.java:910)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.spiStart(ServerImpl.java:358)
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.spiStart(TcpDiscoverySpi.java:1834)
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:297)
+	... 52 common frames omitted
+[2018-03-28 22:53:36] [main] INFO  c.r.i.AlertManagerApplication - Starting AlertManagerApplication on DESKTOP-4FM103E with PID 9700 (E:\servers\igniteprograms\spring-boot-ignite\target\classes started by borde in E:\servers\igniteprograms\spring-boot-ignite)
+[2018-03-28 22:53:36] [main] DEBUG c.r.i.AlertManagerApplication - Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+[2018-03-28 22:53:36] [main] INFO  c.r.i.AlertManagerApplication - No active profile set, falling back to default profiles: default
+[2018-03-28 22:53:36] [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7c7b252e: startup date [Wed Mar 28 22:53:36 EEST 2018]; root of context hierarchy
+[2018-03-28 22:53:36] [background-preinit] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Slf4jLoggerProvider found via system property
+[2018-03-28 22:53:36] [background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+[2018-03-28 22:53:36] [background-preinit] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy58
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2018-03-28 22:53:37] [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+[2018-03-28 22:53:38] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.retry.annotation.RetryConfiguration' of type [org.springframework.retry.annotation.RetryConfiguration$$EnhancerBySpringCGLIB$$e6b15f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-03-28 22:53:38] [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$18a77dcb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.e.r.DefaultTraversableResolver - Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.engine.ConfigurationImpl - Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy58
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.xml.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via user class loader
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.xml.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[2018-03-28 22:53:38] [main] DEBUG o.h.v.i.xml.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+[2018-03-28 22:53:38] [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+[2018-03-28 22:53:38] [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+[2018-03-28 22:53:38] [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.16
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2188 ms
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'metricsFilter' to: [/*]
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'webRequestLoggingFilter' to: [/*]
+[2018-03-28 22:53:38] [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean - Mapping filter: 'applicationContextIdFilter' to: [/*]
+[2018-03-28 22:53:39] [main] ERROR  - Failed to resolve default logging config file: config/java.util.logging.properties
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - 
+
+>>>    __________  ________________  
+>>>   /  _/ ___/ |/ /  _/_  __/ __/  
+>>>  _/ // (7 7    // /  / / / _/    
+>>> /___/\___/_/|_/___/ /_/ /___/   
+>>> 
+>>> ver. 2.4.0#20180305-sha1:aa342270
+>>> 2018 Copyright(C) Apache Software Foundation
+>>> 
+>>> Ignite documentation: http://ignite.apache.org
+
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Config URL: n/a
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - IgniteConfiguration [igniteInstanceName=alertsGrid, pubPoolSize=2, svcPoolSize=2, callbackPoolSize=2, stripedPoolSize=8, sysPoolSize=2, mgmtPoolSize=2, igfsPoolSize=8, dataStreamerPoolSize=1, utilityCachePoolSize=8, utilityCacheKeepAliveTime=60000, p2pPoolSize=2, qryPoolSize=2, igniteHome=null, igniteWorkDir=C:\Users\borde\AppData\Local\Temp\ignite\work, mbeanSrv=com.sun.jmx.mbeanserver.JmxMBeanServer@36978fd4, nodeId=efc26940-2f0c-42ec-bdd0-0efcb822d5e7, marsh=org.apache.ignite.internal.binary.BinaryMarshaller@4a901445, marshLocJobs=false, daemon=false, p2pEnabled=false, netTimeout=5000, sndRetryDelay=1000, sndRetryCnt=3, metricsHistSize=10000, metricsUpdateFreq=2000, metricsExpTime=9223372036854775807, discoSpi=TcpDiscoverySpi [addrRslvr=null, sockTimeout=0, ackTimeout=0, marsh=null, reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false], segPlc=STOP, segResolveAttempts=2, waitForSegOnStart=true, allResolversPassReq=true, segChkFreq=10000, commSpi=TcpCommunicationSpi [connectGate=null, connPlc=null, enableForcibleNodeKill=false, enableTroubleshootingLog=false, srvLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationSpi$2@37854b34, locAddr=null, locHost=null, locPort=47100, locPortRange=100, shmemPort=-1, directBuf=true, directSndBuf=false, idleConnTimeout=600000, connTimeout=5000, maxConnTimeout=600000, reconCnt=10, sockSndBuf=32768, sockRcvBuf=32768, msgQueueLimit=0, slowClientQueueLimit=0, nioSrvr=null, shmemSrv=null, usePairedConnections=false, connectionsPerNode=1, tcpNoDelay=true, filterReachableAddresses=false, ackSndThreshold=32, unackedMsgsBufSize=0, sockWriteTimeout=2000, lsnr=null, boundTcpPort=-1, boundTcpShmemPort=-1, selectorsCnt=4, selectorSpins=0, addrRslvr=null, ctxInitLatch=java.util.concurrent.CountDownLatch@48eb001a[Count = 1], stopping=false, metricsLsnr=org.apache.ignite.spi.communication.tcp.TcpCommunicationMetricsListener@34332b8d], evtSpi=org.apache.ignite.spi.eventstorage.NoopEventStorageSpi@724b939e, colSpi=NoopCollisionSpi [], deploySpi=LocalDeploymentSpi [lsnr=null], indexingSpi=org.apache.ignite.spi.indexing.noop.NoopIndexingSpi@462abec3, addrRslvr=null, clientMode=false, rebalanceThreadPoolSize=1, txCfg=org.apache.ignite.configuration.TransactionConfiguration@35c9a231, cacheSanityCheckEnabled=true, discoStartupDelay=60000, deployMode=SHARED, p2pMissedCacheSize=100, locHost=null, timeSrvPortBase=31100, timeSrvPortRange=100, failureDetectionTimeout=10000, clientFailureDetectionTimeout=30000, metricsLogFreq=0, hadoopCfg=null, connectorCfg=org.apache.ignite.configuration.ConnectorConfiguration@7a4d582c, odbcCfg=null, warmupClos=null, atomicCfg=AtomicConfiguration [seqReserveSize=1000, cacheMode=PARTITIONED, backups=1, aff=null, grpName=null], classLdr=null, sslCtxFactory=null, platformCfg=null, binaryCfg=BinaryConfiguration [idMapper=null, nameMapper=null, serializer=null, compactFooter=false], memCfg=null, pstCfg=PersistentStoreConfiguration [persistenceStorePath=./data/store, checkpointingFreq=180000, lockWaitTime=10000, checkpointingPageBufSize=0, checkpointingThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, walSegments=10, walSegmentSize=67108864, walStorePath=./data/walStore, walArchivePath=./data/walArchive, metricsEnabled=false, walMode=LOG_ONLY, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.RandomAccessFileIOFactory@5626d18c, subIntervals=5, rateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, writeThrottlingEnabled=false], dsCfg=DataStorageConfiguration [sysRegionInitSize=41943040, sysCacheMaxSize=104857600, pageSize=0, concLvl=0, dfltDataRegConf=DataRegionConfiguration [name=default, maxSize=3411451084, initSize=268435456, swapPath=null, pageEvictionMode=DISABLED, evictionThreshold=0.9, emptyPagesPoolSize=100, metricsEnabled=false, metricsSubIntervalCount=5, metricsRateTimeInterval=60000, persistenceEnabled=true, checkpointPageBufSize=0], storagePath=./data/store, checkpointFreq=180000, lockWaitTime=10000, checkpointThreads=4, checkpointWriteOrder=SEQUENTIAL, walHistSize=20, walSegments=10, walSegmentSize=67108864, walPath=./data/walStore, walArchivePath=./data/walArchive, metricsEnabled=false, walMode=LOG_ONLY, walTlbSize=16777216, walBuffSize=0, walFlushFreq=2000, walFsyncDelay=1000, walRecordIterBuffSize=67108864, alwaysWriteFullPages=false, fileIOFactory=org.apache.ignite.internal.processors.cache.persistence.file.RandomAccessFileIOFactory@5626d18c, metricsSubIntervalCnt=5, metricsRateTimeInterval=60000, walAutoArchiveAfterInactivity=-1, writeThrottlingEnabled=false, walCompactionEnabled=false], activeOnStart=true, autoActivation=true, longQryWarnTimeout=3000, sqlConnCfg=null, cliConnCfg=ClientConnectorConfiguration [host=null, port=10800, portRange=100, sockSndBufSize=0, sockRcvBufSize=0, tcpNoDelay=true, maxOpenCursorsPerConn=128, threadPoolSize=8, idleTimeout=0, jdbcEnabled=true, odbcEnabled=true, thinCliEnabled=true]]
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Daemon mode: off
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - OS: Windows 10 10.0 amd64
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - OS user: borde
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - PID: 9700
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Language runtime: Java Platform API Specification ver. 1.8
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - VM information: Java(TM) SE Runtime Environment 1.8.0_131-b11 Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 25.131-b11
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - VM total memory: 3.5GB
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Remote Management [restart: off, REST: on, JMX (remote: off)]
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Logger: JavaLogger [quiet=true, config=null]
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - IGNITE_HOME=null
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - VM arguments: [-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.3\lib\idea_rt.jar=56642:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2017.1.3\bin, -Dfile.encoding=UTF-8]
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - System cache's DataRegion size is configured to 40 MB. Use DataStorageConfiguration.systemCacheMemorySize property to change the setting.
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Configured caches [in 'sysMemPlc' dataRegion: ['ignite-sys-cache'], in 'default' dataRegion: ['Alerts', 'AlertsConfig']]
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.p.p.IgnitePluginProcessor - Configured plugins:
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.p.p.IgnitePluginProcessor -   ^-- None
+[2018-03-28 22:53:39] [main] INFO  o.a.i.i.p.p.IgnitePluginProcessor - 
+[2018-03-28 22:53:39] [pub-#11%alertsGrid%] WARN  o.a.ignite.internal.GridDiagnostic - This operating system has been tested less rigorously: Windows 10 10.0 amd64. Our team will appreciate the feedback if you experience any problems running ignite in this environment.
+[2018-03-28 22:53:39] [pub-#11%alertsGrid%] WARN  o.a.ignite.internal.GridDiagnostic - Initial heap size is 256MB (should be no less than 512MB, use -Xms512m -Xmx512m).
+[2018-03-28 22:53:39] [main] INFO  o.a.i.s.c.tcp.TcpCommunicationSpi - Successfully bound communication NIO server to TCP port [port=47101, locHost=0.0.0.0/0.0.0.0, selectorsCnt=4, selectorSpins=0, pairedConn=false]
+[2018-03-28 22:53:49] [main] WARN  o.a.i.s.c.tcp.TcpCommunicationSpi - Message queue limit is set to 0 which may lead to potential OOMEs when running cache operations in FULL_ASYNC or PRIMARY_SYNC modes due to message queues growth on sender and receiver sides.
+[2018-03-28 22:53:49] [main] WARN  o.a.i.s.c.noop.NoopCheckpointSpi - Checkpoints are disabled (to enable configure any GridCheckpointSpi implementation)
+[2018-03-28 22:53:49] [main] WARN  o.a.i.i.m.c.GridCollisionManager - Collision resolution is disabled (all jobs will be activated upon arrival).
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Security status [authentication=off, tls/ssl=off]
+[2018-03-28 22:53:49] [main] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - Successfully bound to TCP port [port=47501, localHost=0.0.0.0/0.0.0.0, locNodeId=efc26940-2f0c-42ec-bdd0-0efcb822d5e7]
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.b.CacheObjectBinaryProcessorImpl - Resolved directory for serialized binary metadata: C:\Users\borde\AppData\Local\Temp\ignite\work\binary_meta\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_203_192_168_136_1_192_168_32_1_2001_0_9d38_90d7_20ba_9e0_43e6_c0a3_47501
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.f.FilePageStoreManager - Resolved page store work directory: C:\Users\borde\AppData\Local\Temp\ignite\work\.\data\store\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_203_192_168_136_1_192_168_32_1_2001_0_9d38_90d7_20ba_9e0_43e6_c0a3_47501
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.w.FileWriteAheadLogManager - Resolved write ahead log work directory: C:\Users\borde\AppData\Local\Temp\ignite\work\.\data\walStore\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_203_192_168_136_1_192_168_32_1_2001_0_9d38_90d7_20ba_9e0_43e6_c0a3_47501
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.w.FileWriteAheadLogManager - Resolved write ahead log archive directory: C:\Users\borde\AppData\Local\Temp\ignite\work\.\data\walArchive\0_0_0_0_0_0_0_1_127_0_0_1_192_168_1_203_192_168_136_1_192_168_32_1_2001_0_9d38_90d7_20ba_9e0_43e6_c0a3_47501
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.w.FileWriteAheadLogManager - Started write-ahead log manager [mode=LOG_ONLY]
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.GridCacheDatabaseSharedManager - Read checkpoint status [startMarker=null, endMarker=null]
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.pagemem.PageMemoryImpl - Started page memory [memoryAllocated=100.0 MiB, pages=24936, tableSize=1.4 MiB, checkpointBuffer=100.0 MiB]
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.GridCacheDatabaseSharedManager - Checking memory state [lastValidPos=FileWALPointer [idx=0, fileOff=0, len=0], lastMarked=FileWALPointer [idx=0, fileOff=0, len=0], lastCheckpointId=00000000-0000-0000-0000-000000000000]
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.GridCacheDatabaseSharedManager - Applying lost cache updates since last checkpoint record [lastMarked=FileWALPointer [idx=0, fileOff=0, len=0], lastCheckpointId=00000000-0000-0000-0000-000000000000]
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.c.p.GridCacheDatabaseSharedManager - Finished applying WAL changes [updatesApplied=0, time=0ms]
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.o.ClientListenerProcessor - Client connector processor has started on TCP port 10801
+[2018-03-28 22:53:49] [main] INFO  o.a.i.i.p.r.p.t.GridTcpRestProtocol - Command protocol successfully started [name=TCP binary, host=0.0.0.0/0.0.0.0, port=11212]
+[2018-03-28 22:53:50] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Non-loopback local IPs: 192.168.1.203, 192.168.136.1, 192.168.32.1, 2001:0:9d38:90d7:20ba:9e0:43e6:c0a3, fe80:0:0:0:20ba:9e0:43e6:c0a3%net2, fe80:0:0:0:4c32:bdf8:112d:893a%eth1, fe80:0:0:0:4d4c:57b5:8fca:7503%eth0, fe80:0:0:0:8f7:b67a:6638:69da%wlan0, fe80:0:0:0:991f:c5a5:add2:b253%eth5, fe80:0:0:0:dcfe:8611:4231:4fc1%eth2, fe80:0:0:0:f9de:bb8:838c:2590%wlan1
+[2018-03-28 22:53:50] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - Enabled local MACs: 00000000000000E0, 005056C00001, 005056C00008, 0862660D76F9, 801934C83282, 801934C83283, 801934C83286
+[2018-03-28 22:53:50] [main] WARN  o.a.i.s.d.t.i.m.TcpDiscoveryMulticastIpFinder - TcpDiscoveryMulticastIpFinder has no pre-configured addresses (it is recommended in production to specify at least one address in TcpDiscoveryMulticastIpFinder.getAddresses() configuration property)
+[2018-03-28 22:53:52] [tcp-disco-srvr-#2%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - TCP discovery accepted incoming connection [rmtAddr=/0:0:0:0:0:0:0:1, rmtPort=56701]
+[2018-03-28 22:53:52] [tcp-disco-srvr-#2%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - TCP discovery spawning a new thread for connection [rmtAddr=/0:0:0:0:0:0:0:1, rmtPort=56701]
+[2018-03-28 22:53:52] [tcp-disco-sock-reader-#12%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - Started serving remote node connection [rmtAddr=/0:0:0:0:0:0:0:1:56701, rmtPort=56701]
+[2018-03-28 22:53:52] [tcp-disco-sock-reader-#12%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - Received ping request from the remote node [rmtNodeId=258540a5-0591-4d42-8ade-a12833b5e46c, rmtAddr=/0:0:0:0:0:0:0:1:56701, rmtPort=56701]
+[2018-03-28 22:53:52] [tcp-disco-sock-reader-#12%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - Finished writing ping response [rmtNodeId=258540a5-0591-4d42-8ade-a12833b5e46c, rmtAddr=/0:0:0:0:0:0:0:1:56701, rmtPort=56701]
+[2018-03-28 22:53:52] [tcp-disco-sock-reader-#12%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - Finished serving remote node connection [rmtAddr=/0:0:0:0:0:0:0:1:56701, rmtPort=56701
+[2018-03-28 22:53:52] [tcp-disco-srvr-#2%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - TCP discovery accepted incoming connection [rmtAddr=/0:0:0:0:0:0:0:1, rmtPort=56702]
+[2018-03-28 22:53:52] [tcp-disco-srvr-#2%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - TCP discovery spawning a new thread for connection [rmtAddr=/0:0:0:0:0:0:0:1, rmtPort=56702]
+[2018-03-28 22:53:52] [tcp-disco-sock-reader-#13%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - Started serving remote node connection [rmtAddr=/0:0:0:0:0:0:0:1:56702, rmtPort=56702]
+[2018-03-28 22:53:52] [tcp-disco-sock-reader-#13%alertsGrid%] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - Finished serving remote node connection [rmtAddr=/0:0:0:0:0:0:0:1:56702, rmtPort=56702
+[2018-03-28 22:53:52] [main] ERROR o.a.i.i.IgniteKernal%alertsGrid - Failed to start manager: GridManagerAdapter [enabled=true, name=o.a.i.i.managers.discovery.GridDiscoveryManager]
+org.apache.ignite.IgniteCheckedException: Failed to start SPI: TcpDiscoverySpi [addrRslvr=null, sockTimeout=5000, ackTimeout=5000, marsh=JdkMarshaller [clsFilter=org.apache.ignite.internal.IgniteKernal$5@2d28fb02], reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false]
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:300)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:892)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1669)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:983)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1973)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1716)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1144)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:664)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:589)
+	at org.apache.ignite.Ignition.start(Ignition.java:322)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration.ignite(AlertManagerConfiguration.java:97)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c.CGLIB$ignite$1(<generated>)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c$$FastClassBySpringCGLIB$$62aed86d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c.ignite(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.romeh.ignitemanager.AlertManagerApplication.main(AlertManagerApplication.java:16)
+Caused by: org.apache.ignite.spi.IgniteSpiException: Local node's binary configuration is not equal to remote node's binary configuration [locNodeId=efc26940-2f0c-42ec-bdd0-0efcb822d5e7, rmtNodeId=258540a5-0591-4d42-8ade-a12833b5e46c, locBinaryCfg={globIdMapper=null, compactFooter=false, globSerializer=null}, rmtBinaryCfg=null]
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.checkFailedError(TcpDiscoverySpi.java:1856)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.joinTopology(ServerImpl.java:932)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.spiStart(ServerImpl.java:364)
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.spiStart(TcpDiscoverySpi.java:1930)
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:297)
+	... 52 common frames omitted
+[2018-03-28 22:53:52] [main] ERROR o.a.i.i.IgniteKernal%alertsGrid - Got exception while starting (will rollback startup routine).
+org.apache.ignite.IgniteCheckedException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1674)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:983)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1973)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1716)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1144)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:664)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:589)
+	at org.apache.ignite.Ignition.start(Ignition.java:322)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration.ignite(AlertManagerConfiguration.java:97)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c.CGLIB$ignite$1(<generated>)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c$$FastClassBySpringCGLIB$$62aed86d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c.ignite(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.romeh.ignitemanager.AlertManagerApplication.main(AlertManagerApplication.java:16)
+Caused by: org.apache.ignite.IgniteCheckedException: Failed to start SPI: TcpDiscoverySpi [addrRslvr=null, sockTimeout=5000, ackTimeout=5000, marsh=JdkMarshaller [clsFilter=org.apache.ignite.internal.IgniteKernal$5@2d28fb02], reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false]
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:300)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:892)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1669)
+	... 50 common frames omitted
+Caused by: org.apache.ignite.spi.IgniteSpiException: Local node's binary configuration is not equal to remote node's binary configuration [locNodeId=efc26940-2f0c-42ec-bdd0-0efcb822d5e7, rmtNodeId=258540a5-0591-4d42-8ade-a12833b5e46c, locBinaryCfg={globIdMapper=null, compactFooter=false, globSerializer=null}, rmtBinaryCfg=null]
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.checkFailedError(TcpDiscoverySpi.java:1856)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.joinTopology(ServerImpl.java:932)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.spiStart(ServerImpl.java:364)
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.spiStart(TcpDiscoverySpi.java:1930)
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:297)
+	... 52 common frames omitted
+[2018-03-28 22:53:52] [main] INFO  o.a.i.i.p.r.p.t.GridTcpRestProtocol - Command protocol successfully stopped: TCP binary
+[2018-03-28 22:53:57] [main] INFO  o.a.i.s.d.tcp.TcpDiscoverySpi - No verification for local node leave has been received from coordinator (will stop node anyway).
+[2018-03-28 22:53:57] [main] INFO  o.a.i.i.IgniteKernal%alertsGrid - 
+
+>>> +---------------------------------------------------------------------------------+
+>>> Ignite ver. 2.4.0#20180305-sha1:aa342270b13cc1f4713382a8eb23b2eb7edaa3a5 stopped OK
+>>> +---------------------------------------------------------------------------------+
+>>> Ignite instance name: alertsGrid
+>>> Grid uptime: 00:00:18.326
+
+
+[2018-03-28 22:53:57] [main] WARN  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataGridCompute': Unsatisfied dependency expressed through field 'ignite'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ignite' defined in class path resource [com/romeh/ignitemanager/config/AlertManagerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ignite.Ignite]: Factory method 'ignite' threw exception; nested exception is class org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+[2018-03-28 22:53:57] [main] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+[2018-03-28 22:53:57] [main] INFO  o.s.b.a.l.AutoConfigurationReportLoggingInitializer - 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+[2018-03-28 22:53:57] [main] ERROR o.s.boot.SpringApplication - Application startup failed
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataGridCompute': Unsatisfied dependency expressed through field 'ignite'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ignite' defined in class path resource [com/romeh/ignitemanager/config/AlertManagerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ignite.Ignite]: Factory method 'ignite' threw exception; nested exception is class org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:588)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:366)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1264)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:553)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:761)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:867)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.romeh.ignitemanager.AlertManagerApplication.main(AlertManagerApplication.java:16)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'ignite' defined in class path resource [com/romeh/ignitemanager/config/AlertManagerConfiguration.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ignite.Ignite]: Factory method 'ignite' threw exception; nested exception is class org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:599)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:585)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ignite.Ignite]: Factory method 'ignite' threw exception; nested exception is class org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:189)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	... 31 common frames omitted
+Caused by: org.apache.ignite.IgniteException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.apache.ignite.internal.util.IgniteUtils.convertException(IgniteUtils.java:980)
+	at org.apache.ignite.Ignition.start(Ignition.java:325)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration.ignite(AlertManagerConfiguration.java:97)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c.CGLIB$ignite$1(<generated>)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c$$FastClassBySpringCGLIB$$62aed86d.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at com.romeh.ignitemanager.config.AlertManagerConfiguration$$EnhancerBySpringCGLIB$$67076b7c.ignite(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	... 32 common frames omitted
+Caused by: org.apache.ignite.IgniteCheckedException: Failed to start manager: GridManagerAdapter [enabled=true, name=org.apache.ignite.internal.managers.discovery.GridDiscoveryManager]
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1674)
+	at org.apache.ignite.internal.IgniteKernal.start(IgniteKernal.java:983)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start0(IgnitionEx.java:1973)
+	at org.apache.ignite.internal.IgnitionEx$IgniteNamedInstance.start(IgnitionEx.java:1716)
+	at org.apache.ignite.internal.IgnitionEx.start0(IgnitionEx.java:1144)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:664)
+	at org.apache.ignite.internal.IgnitionEx.start(IgnitionEx.java:589)
+	at org.apache.ignite.Ignition.start(Ignition.java:322)
+	... 43 common frames omitted
+Caused by: org.apache.ignite.IgniteCheckedException: Failed to start SPI: TcpDiscoverySpi [addrRslvr=null, sockTimeout=5000, ackTimeout=5000, marsh=JdkMarshaller [clsFilter=org.apache.ignite.internal.IgniteKernal$5@2d28fb02], reconCnt=10, reconDelay=2000, maxAckTimeout=600000, forceSrvMode=false, clientReconnectDisabled=false]
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:300)
+	at org.apache.ignite.internal.managers.discovery.GridDiscoveryManager.start(GridDiscoveryManager.java:892)
+	at org.apache.ignite.internal.IgniteKernal.startManager(IgniteKernal.java:1669)
+	... 50 common frames omitted
+Caused by: org.apache.ignite.spi.IgniteSpiException: Local node's binary configuration is not equal to remote node's binary configuration [locNodeId=efc26940-2f0c-42ec-bdd0-0efcb822d5e7, rmtNodeId=258540a5-0591-4d42-8ade-a12833b5e46c, locBinaryCfg={globIdMapper=null, compactFooter=false, globSerializer=null}, rmtBinaryCfg=null]
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.checkFailedError(TcpDiscoverySpi.java:1856)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.joinTopology(ServerImpl.java:932)
+	at org.apache.ignite.spi.discovery.tcp.ServerImpl.spiStart(ServerImpl.java:364)
+	at org.apache.ignite.spi.discovery.tcp.TcpDiscoverySpi.spiStart(TcpDiscoverySpi.java:1930)
+	at org.apache.ignite.internal.managers.GridManagerAdapter.startSpi(GridManagerAdapter.java:297)
+	... 52 common frames omitted

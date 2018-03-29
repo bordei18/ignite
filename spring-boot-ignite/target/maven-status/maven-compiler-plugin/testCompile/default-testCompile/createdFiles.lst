@@ -1,0 +1,3 @@
+com\romeh\ignitemanager\repositories\impl\IgniteAlertsSoreTest.class
+com\romeh\ignitemanager\web\AlertsControllerTest.class
+com\romeh\ignitemanager\integration\AlertManagerApplicationIT.class

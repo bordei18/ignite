@@ -1,0 +1,6 @@
+project\config\Config.class
+project\bean\MyBean.class
+project\Runner.class
+project\repository\MyBeanRepository.class
+project\predicate\Pred.class
+project\work\Executor.class
